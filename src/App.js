@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/header/Header.js'
 import Login from './components/login/Login.js';
@@ -11,7 +10,6 @@ class App extends Component {
     return (
       <MuiThemeProvider>
         <div className="App">
-          <Header />
           <Login />
         </div>
       </MuiThemeProvider>

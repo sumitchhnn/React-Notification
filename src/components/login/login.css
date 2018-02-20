@@ -1,0 +1,23 @@
+#root {
+	display:table; 
+	height:100%; 
+	margin: 0 auto;
+}
+.App {
+	display:table-cell; 
+	vertical-align:middle;
+}
+.login-form {
+	width: 100%;
+	padding: 5%;
+}
+.login-paper {
+	width: 100%;
+	padding: 10%;
+}
+.form-header {
+	font-size: 1.5em;
+    font-family: sans-serif;
+    color: #00bcd4;
+    text-decoration: underline;
+}
