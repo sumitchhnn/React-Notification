@@ -1,19 +1,12 @@
-#root {
-	display:table; 
-	height:100%; 
-	margin: 0 auto;
-}
-.App {
-	display:table-cell; 
-	vertical-align:middle;
-}
-.login-form {
-	width: 100%;
-	padding: 5%;
+.login-container {
+    width: 35%;
+    margin: 0 auto;
 }
 .login-paper {
-	width: 100%;
-	padding: 10%;
+	padding: 5%;
+}
+.login-paper > div > div {
+    width: 75% !important;
 }
 .form-header {
 	font-size: 1.5em;
